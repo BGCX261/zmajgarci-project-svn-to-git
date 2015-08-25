@@ -1,0 +1,29 @@
+.buttonBlack {
+	float: left;
+	clear: both;
+	background: url(../images/button_left.png) no-repeat;
+	padding: 0 0 0 64px;
+	margin: 5px 0;
+}
+
+.buttonBlack a {
+	float: left;
+	height: 71px;
+	width: 100px;
+	background: url(../images/button_mid.png) repeat-x top left;
+	line-height: 71px;
+	color: white;
+	font-size: 0.6em;
+	text-decoration: none;
+}
+
+.buttonBlack span {
+	background: url(../images/button_right.png) no-repeat;
+	float: left;
+	width: 18px;
+	height: 71px;
+}
+	
+.clear {
+	clear: both;
+}

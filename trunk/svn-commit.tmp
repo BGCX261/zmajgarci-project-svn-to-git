@@ -1,0 +1,29 @@
+Neznam kaj bi više reko...
+
+--This line, and those below, will be ignored--
+
+AM   jquery.columnview.js
+D    menus.js
+A    images
+AM   images/arrow-black-left.png
+AM   images/arrow-white-down.png
+AM   images/arrows-ffffff.png
+AM   images/arrow-black-right.png
+AM   images/arrow-white-left.png
+AM   images/arrow-white-right.png
+AM   images/button_mid.png
+AM   images/shadow.png
+AM   images/button_left.png
+AM   images/arrow-black-up.png
+AM   images/button_right.png
+AM   images/arrow-black-down.png
+AM   images/arrow-white-up.png
+M    menuBuilder.js
+A    menus
+AM   menus/menus.js
+AM   css/ddmenu.css
+M    css/main.css
+A    css/goran.css
+M    index.html
+A    js
+AM   js/jquery.bdc.ddmenu.js

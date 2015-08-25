@@ -1,0 +1,193 @@
+@CHARSET "UTF-8";
+
+body {
+	background: url(../images/kava1.jpg);
+}
+
+.main {
+	width: 95%;
+	height: 500px;
+	padding: 0.2em;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 2px solid #ccc;
+}
+
+.container {
+	width: 300px;
+	height: 250px;
+	padding: 1px;
+}
+
+.menu {
+	width: 50px;
+	height: 50px;
+	padding: 1px;
+}
+
+.edit_button {
+	border: 1px solid #ccc;
+	width: 45px;
+}
+
+.editable {
+	border: 2px solid #ccc;
+}
+
+#row1 {
+	width: 50px;
+	height: 5px;
+	padding: 5px;
+	border: 2px solid #ccc;
+}
+
+#valueSlider {
+	padding: 1px;
+	border: 2px solid #ccc;
+}
+
+/* fullscreen edit controls start */
+.container-fullscreen {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #C8C8C8;
+	opacity: 0.9;
+	z-index: 1000;
+}
+
+#current-menu-items-container {
+	border: 0px solid #ccc;
+}
+
+#add-menu-items-container {
+	border: 0px solid #ccc;
+	background-color:white;
+}
+
+#add-menu-items,#current-menu-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-right: 10px;
+	background: #eee;
+	padding: 5px;
+	min-height: 100px;
+	width: 143px;
+}
+
+.menu-type-changer {
+	margin: 0;
+	padding: 0;
+	float: center; margin-right : 10px;
+	background: #eee;
+	padding: 5px;
+	width: 143px;
+	margin-right: 10px;
+}
+
+.edit-menu-container {
+	float: left;
+	width: 197px;
+	background: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	border: 3px solid;
+}
+
+.edit-menu-items {
+	list-style-type: none;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	margin-right: 10px;
+	background: white;
+	padding: 5px;
+	opacity: 0.9;
+}
+
+.edit-main-container {
+	float: right;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0;
+	width: 340px;
+	height: 327px;
+	margin-right: 10px;
+	background: white;
+	padding: 5px;
+	position: absolute;
+	left: 320px;
+	top: 100px;
+	border: 3px solid;
+}
+
+.move-resize-exit {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+/* fullscreen edit controls stop */ 
+
+/* scrollbar css start */
+.scroll-pane {
+	overflow: auto;
+	width: 99%;
+	float: left;
+}
+
+.scroll-content {
+	width: 245px;
+	float: left;
+}
+
+.scroll-content-item {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+* html .scroll-content-item {
+	display: inline;
+}  /* IE6 float double margin bug */
+.scroll-bar-wrap {
+	clear: left;
+	padding: 0 4px 0 2px;
+	margin: 0 -1px -1px -1px;
+}
+
+.scroll-bar-wrap .ui-slider {
+	background: none;
+	border: 0;
+	height: 2em;
+	margin: 0 auto;
+}
+
+.scroll-bar-wrap .ui-handle-helper-parent {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.scroll-bar-wrap .ui-slider-handle {
+	top: .2em;
+	height: 1.5em;
+}
+
+.scroll-bar-wrap .ui-slider-handle .ui-icon {
+	margin: -8px auto 0;
+	position: relative;
+	top: 50%;
+}
+/* scrollbar css end */

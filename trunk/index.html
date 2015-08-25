@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Menu builder</title>
+<link type="text/css" href="themes/base/jquery.ui.all.css" rel="stylesheet" />
+<link type="text/css" href="css/main.css" rel="stylesheet" />
+<link type="text/css" href="css/goran.css" rel="stylesheet" />
+<link type="text/css" href="css/ddmenu.css" rel="stylesheet" /> 
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.mouse.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.draggable.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.resizable.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.slider.js"></script>
+<script type="text/javascript" src="ui/jquery.ui.sortable.js"></script>
+
+
+<script type="text/javascript" src="valueSelectors.js"></script>
+<script type="text/javascript" src="menus/menus.js"></script>
+<script type="text/javascript" src="menus/jquery.treeview.js"></script>
+<script type="text/javascript" src="js/jquery.bdc.ddmenu.js"></script>
+
+<script type="text/javascript" src="menuBuilder.js"></script>
+
+<script type="text/javascript">
+var menu = new menuBuilder(menuData);
+var valueSelector = new valueSelectors();
+</script>
+
+
+</head>
+<body onload="menu.init()">
+<div class="main">
+	<div class="container" id="container">
+		<div class="menu" id="menu" >
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
